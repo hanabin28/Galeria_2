@@ -20,17 +20,21 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8em;
+    font-size: 1.9em;
+    word-spacing: 3px;
 }
 
 .photo{
     color: lightcoral;
     font-family: 'Nerko One', cursive;
+    filter: saturate(150%);
 }
 
 .gallery{
-    color: lightseagreen;
+    color: mediumslateblue;
     font-family: 'Nerko One', cursive;
+    filter: brightness(120%) saturate(150%);
+    opacity: 0.9;
 }
 
 .galeria{
